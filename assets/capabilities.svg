@@ -1,59 +1,157 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="200" viewBox="0 0 1440 200" role="img" aria-label="TimeCraker delivered capabilities">
-  <!-- 底：ink -->
-  <rect width="1440" height="200" rx="16" fill="#1C1917"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="380" viewBox="0 0 1440 380" role="img" aria-label="TimeCraker 技术面与已交付">
+  <defs>
+    <style>
+      .dom { font: 600 15px 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif; fill: #CC785C; letter-spacing: 3px; }
+      .sub { font: 400 13.5px 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif; fill: #D6D3D1; }
+      .dim { font: 400 12.5px 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif; fill: #A8A29E; letter-spacing: 1px; }
+      .tag { font: 600 12px 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif; fill: #CC785C; letter-spacing: 4px; }
+      .line { stroke: #2E2A27; stroke-width: 1; }
+      .icon { stroke: #CC785C; stroke-width: 1.8; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+      .node { fill: #CC785C; }
+      .soft { stroke: #57534E; stroke-width: 1.6; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+      .dot-on { fill: #7BA05B; }
+    </style>
+  </defs>
 
-  <!-- 六枚能力胶囊：等距 6 列，中心 y=100 -->
-  <!-- 每枚：coral 描边胶囊 + 简约几何图标 + 双行标签 -->
+  <!-- 底板 -->
+  <rect width="1440" height="380" rx="18" fill="#1C1917"/>
 
-  <!-- 1. AI Agent -->
-  <g transform="translate(40,40)">
-    <rect width="200" height="120" rx="14" fill="none" stroke="#CC785C" stroke-width="1.5" opacity="0.9"/>
-    <circle cx="100" cy="42" r="16" fill="none" stroke="#CC785C" stroke-width="2.5"/>
-    <circle cx="100" cy="42" r="5" fill="#CC785C"/>
-    <path d="M84 74 L116 74" stroke="#CC785C" stroke-width="2.5" stroke-linecap="round"/>
-    <text x="100" y="97" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" fill="#FAF6F0" font-weight="600">AI Agent</text>
+  <!-- ══ 上半：六域技术矩阵 ══ -->
+  <!-- 列几何：padding 56，六列等宽 221.3，列间分隔线 -->
+
+  <!-- 列 1 · 前端 -->
+  <g transform="translate(56,44)">
+    <rect x="0" y="0" width="26" height="2" fill="#CC785C"/>
+    <!-- 图标：布局层叠 -->
+    <g transform="translate(2,22)">
+      <rect x="0"  y="26" width="30" height="20" rx="3" class="icon"/>
+      <rect x="6"  y="13" width="30" height="20" rx="3" class="soft"/>
+      <rect x="12" y="0"  width="30" height="20" rx="3" class="icon"/>
+    </g>
+    <text x="2"  y="82" class="dom">前端</text>
+    <text x="2"  y="106" class="sub">Next.js · React</text>
+    <text x="2"  y="126" class="sub">Tailwind · Three.js</text>
+    <text x="2"  y="146" class="sub">GSAP · Motion</text>
+  </g>
+  <line x1="290" y1="44" x2="290" y2="196" class="line"/>
+
+  <!-- 列 2 · 后端 -->
+  <g transform="translate(312,44)">
+    <rect x="0" y="0" width="26" height="2" fill="#CC785C"/>
+    <!-- 图标：数据库 + 接口 -->
+    <g transform="translate(2,18)">
+      <ellipse cx="16" cy="8" rx="14" ry="6" class="icon"/>
+      <path d="M2 8 v22 c0 3.3 6.3 6 14 6 s14 -2.7 14 -6 V8" class="icon"/>
+      <path d="M2 19 c0 3.3 6.3 6 14 6 s14 -2.7 14 -6" class="soft"/>
+    </g>
+    <text x="2" y="82" class="dom">后端</text>
+    <text x="2" y="106" class="sub">Go · Gin · WS</text>
+    <text x="2" y="126" class="sub">FastAPI · Node</text>
+    <text x="2" y="146" class="sub">Prisma · MySQL · Redis</text>
+  </g>
+  <line x1="546" y1="44" x2="546" y2="196" class="line"/>
+
+  <!-- 列 3 · AI 工程 -->
+  <g transform="translate(568,44)">
+    <rect x="0" y="0" width="26" height="2" fill="#CC785C"/>
+    <!-- 图标：神经网络 -->
+    <g transform="translate(2,20)">
+      <circle cx="4"  cy="6"  r="3" class="node"/>
+      <circle cx="4"  cy="22" r="3" class="node"/>
+      <circle cx="19" cy="0"  r="3" class="node" opacity="0.55"/>
+      <circle cx="19" cy="14" r="3" class="node"/>
+      <circle cx="19" cy="28" r="3" class="node" opacity="0.55"/>
+      <circle cx="34" cy="14" r="3.5" class="node"/>
+      <path d="M7 6 L16 1 M7 6 L16 13 M7 6 L16 27 M7 22 L16 13 M7 22 L16 27 M22 14 L30 14" class="soft" stroke-width="1.2"/>
+    </g>
+    <text x="2" y="82" class="dom">AI 工程</text>
+    <text x="2" y="106" class="sub">LLM 编排 · Agent</text>
+    <text x="2" y="126" class="sub">ONNX 推理 · RPA</text>
+    <text x="2" y="146" class="sub">Playwright 自动化</text>
+  </g>
+  <line x1="802" y1="44" x2="802" y2="196" class="line"/>
+
+  <!-- 列 4 · 跨端 -->
+  <g transform="translate(824,44)">
+    <rect x="0" y="0" width="26" height="2" fill="#CC785C"/>
+    <!-- 图标：游戏手柄 -->
+    <g transform="translate(2,24)">
+      <path d="M10 0 h20 c8 0 12 6 12 14 0 10 -5 16 -11 16 -4 0 -5 -3 -9 -3 h-4 c-4 0 -5 3 -9 3 C3 30 -2 24 -2 14 -2 6 2 0 10 0 Z" class="icon"/>
+      <circle cx="10" cy="12" r="3" class="icon"/>
+      <circle cx="30" cy="9"  r="2.6" class="icon"/>
+      <circle cx="36" cy="15" r="2.6" class="icon"/>
+      <circle cx="24" cy="15" r="2.6" class="icon"/>
+    </g>
+    <text x="2" y="82" class="dom">跨端</text>
+    <text x="2" y="106" class="sub">Unity WebGL</text>
+    <text x="2" y="126" class="sub">Godot 4 · WASM</text>
+    <text x="2" y="146" class="sub">Tauri · 小程序</text>
+  </g>
+  <line x1="1058" y1="44" x2="1058" y2="196" class="line"/>
+
+  <!-- 列 5 · 硬件 -->
+  <g transform="translate(1080,44)">
+    <rect x="0" y="0" width="26" height="2" fill="#CC785C"/>
+    <!-- 图标：蓝牙 + 电路 -->
+    <g transform="translate(10,18)">
+      <path d="M0 0 L14 12 L0 24 M14 0 L0 12 L14 24" class="icon"/>
+      <path d="M22 6 h8 M26 6 v6 M22 20 h8 M26 26 v6" class="soft"/>
+      <circle cx="26" cy="26" r="2" class="node"/>
+    </g>
+    <text x="2" y="82" class="dom">硬件</text>
+    <text x="2" y="106" class="sub">BLE 逆向</text>
+    <text x="2" y="126" class="sub">语音链路</text>
+    <text x="2" y="146" class="sub">PCB · 机械键盘</text>
+  </g>
+  <line x1="1314" y1="44" x2="1314" y2="196" class="line"/>
+
+  <!-- 列 6 · 生产运维 -->
+  <g transform="translate(1336,44)">
+    <rect x="0" y="0" width="26" height="2" fill="#CC785C"/>
+    <!-- 图标：机架 + 心跳 -->
+    <g transform="translate(2,16)">
+      <rect x="0" y="0"  width="36" height="10" rx="2" class="icon"/>
+      <rect x="0" y="14" width="36" height="10" rx="2" class="icon"/>
+      <rect x="0" y="28" width="36" height="10" rx="2" class="soft"/>
+      <circle cx="30" cy="5"  r="1.8" class="dot-on"/>
+      <circle cx="30" cy="19" r="1.8" class="dot-on"/>
+      <circle cx="30" cy="33" r="1.8" class="node"/>
+    </g>
+    <text x="2" y="82" class="dom">运维</text>
+    <text x="2" y="106" class="sub">nginx · systemd</text>
+    <text x="2" y="126" class="sub">SSL · 备份 · 巡检</text>
+    <text x="2" y="146" class="sub">腾讯云单机体系</text>
   </g>
 
-  <!-- 2. RPA 自动化 -->
-  <g transform="translate(272,40)">
-    <rect width="200" height="120" rx="14" fill="none" stroke="#57534E" stroke-width="1.5"/>
-    <rect x="82" y="26" width="36" height="28" rx="5" fill="none" stroke="#CC785C" stroke-width="2.5"/>
-    <path d="M100 54 L100 66 M100 66 L92 60 M100 66 L108 60" stroke="#CC785C" stroke-width="2.5" stroke-linecap="round" fill="none"/>
-    <path d="M76 74 L124 74" stroke="#57534E" stroke-width="2" stroke-linecap="round"/>
-    <path d="M76 82 L112 82" stroke="#57534E" stroke-width="2" stroke-linecap="round"/>
-    <text x="100" y="105" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" fill="#FAF6F0" font-weight="600">RPA 自动化</text>
+  <!-- ══ 分隔与交付带 ══ -->
+  <line x1="56" y1="216" x2="1384" y2="216" class="line"/>
+  <text x="56"  y="252" class="tag">DELIVERED · 未开源交付</text>
+
+  <!-- 交付五项 -->
+  <g transform="translate(56,272)" class="dim">
+    <circle cx="6"  cy="10" r="3.5" class="dot-on"/>
+    <text x="20" y="15" class="sub">AI 简历产品</text>
+    <text x="20" y="34" class="dim">在线运营</text>
+
+    <circle cx="278" cy="10" r="3.5" class="dot-on"/>
+    <text x="292" y="15" class="sub">K12 AI 助教平台</text>
+    <text x="292" y="34" class="dim">在线运营</text>
+
+    <circle cx="550" cy="10" r="3.5" class="node"/>
+    <text x="564" y="15" class="sub">工业品发品 Agent</text>
+    <text x="564" y="34" class="dim">AI RPA · Chrome 扩展</text>
+
+    <circle cx="846" cy="10" r="3.5" class="node"/>
+    <text x="860" y="15" class="sub">BLE 硬件 PWA 驱动</text>
+    <text x="860" y="34" class="dim">定制合同交付</text>
+
+    <circle cx="1118" cy="10" r="3.5" class="node"/>
+    <text x="1132" y="15" class="sub">离线自托管 TTS</text>
+    <text x="1132" y="34" class="dim">ONNX CPU 推理</text>
   </g>
 
-  <!-- 3. BLE 硬件 -->
-  <g transform="translate(504,40)">
-    <rect width="200" height="120" rx="14" fill="none" stroke="#57534E" stroke-width="1.5"/>
-    <path d="M92 26 v56 M100 26 v56 M108 26 v34" stroke="#CC785C" stroke-width="3" stroke-linecap="round"/>
-    <path d="M88 40 a18 18 0 0 1 24 0 M84 32 a26 26 0 0 1 32 0" stroke="#CC785C" stroke-width="2" stroke-linecap="round" fill="none"/>
-    <text x="100" y="105" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" fill="#FAF6F0" font-weight="600">BLE 硬件</text>
-  </g>
-
-  <!-- 4. 语音 TTS -->
-  <g transform="translate(736,40)">
-    <rect width="200" height="120" rx="14" fill="none" stroke="#57534E" stroke-width="1.5"/>
-    <path d="M88 48 h8 v-8 h6 v20 h6 v-14 h6 v8 h6" stroke="#CC785C" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
-    <path d="M84 34 a22 22 0 0 1 0 32 M76 26 a34 34 0 0 1 0 48" stroke="#57534E" stroke-width="2" stroke-linecap="round" fill="none"/>
-    <text x="100" y="105" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" fill="#FAF6F0" font-weight="600">语音 TTS</text>
-  </g>
-
-  <!-- 5. 跨端游戏 -->
-  <g transform="translate(968,40)">
-    <rect width="200" height="120" rx="14" fill="none" stroke="#57534E" stroke-width="1.5"/>
-    <circle cx="100" cy="44" r="14" fill="none" stroke="#CC785C" stroke-width="2.5"/>
-    <path d="M100 30 L100 20 M100 58 L100 68 M86 44 L76 44 M114 44 L124 44 M90 34 L83 27 M110 34 L117 27 M90 54 L83 61 M110 54 L117 61" stroke="#CC785C" stroke-width="2" stroke-linecap="round"/>
-    <text x="100" y="105" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" fill="#FAF6F0" font-weight="600">跨端游戏</text>
-  </g>
-
-  <!-- 6. 生产运维 -->
-  <g transform="translate(1200,40)">
-    <rect width="200" height="120" rx="14" fill="none" stroke="#57534E" stroke-width="1.5"/>
-    <path d="M86 60 a14 14 0 0 1 28 0 v6 h-28 z" fill="#CC785C"/>
-    <path d="M96 50 v-10 M104 50 v-10" stroke="#CC785C" stroke-width="2.5" stroke-linecap="round"/>
-    <rect x="78" y="66" width="44" height="5" rx="2.5" fill="#57534E"/>
-    <text x="100" y="94" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" fill="#FAF6F0" font-weight="600">生产运维</text>
-  </g>
+  <!-- 底部细节线 -->
+  <rect x="56" y="352" width="26" height="2" fill="#CC785C" opacity="0.6"/>
+  <rect x="90" y="352" width="8"  height="2" fill="#57534E"/>
+  <rect x="104" y="352" width="4" height="2" fill="#57534E"/>
 </svg>

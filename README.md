@@ -12,15 +12,9 @@
 
 </div>
 
-**技术面** — 前端 Next.js / React / Tailwind / Three.js · 后端 Go / FastAPI / Node · AI 多 LLM 编排 / Agent SDK / ONNX 推理 / Playwright RPA · 跨端 Unity & Godot WebGL / Tauri · 硬件 BLE 逆向 / 语音 / PCB · 生产 nginx / systemd / 巡检
-
-**已交付（未开源）**
-
 <div align="center">
-<img src="assets/capabilities.svg" width="720" alt="capabilities" />
+<img src="assets/capabilities.svg" width="880" alt="技术面与已交付" />
 </div>
-
-AI 简历产品（在线运营）· K12 AI 助教平台（在线运营）· 工业品电商 AI 发品 Agent · BLE 硬件 PWA 驱动（定制合同交付）· 离线自托管 TTS
 
 ---
 
