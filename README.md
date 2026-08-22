@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/TimeCraker/asternova-assets/main/og-game.png" width="800" alt="TimeCraker" />
+<img src="assets/og-image.png" width="800" alt="TimeCraker" />
 
 # TimeCraker
 
