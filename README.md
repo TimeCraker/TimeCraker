@@ -10,6 +10,14 @@
 
 [asterforge.top](https://asterforge.top) · [ResumeAIX](https://resume.asterforge.top) · [timecraker@foxmail.com](mailto:timecraker@foxmail.com)
 
+<img src="https://img.shields.io/badge/Next.js_16-CC785C?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js 16" />
+<img src="https://img.shields.io/badge/React_19-CC785C?style=flat-square&logo=react&logoColor=white" alt="React 19" />
+<img src="https://img.shields.io/badge/TypeScript-CC785C?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
+<img src="https://img.shields.io/badge/Go-CC785C?style=flat-square&logo=go&logoColor=white" alt="Go" />
+<img src="https://img.shields.io/badge/Godot-CC785C?style=flat-square&logo=godotengine&logoColor=white" alt="Godot" />
+<img src="https://img.shields.io/badge/Prisma-CC785C?style=flat-square&logo=prisma&logoColor=white" alt="Prisma" />
+<img src="https://img.shields.io/badge/AI_Agents-CC785C?style=flat-square" alt="AI Agents" />
+
 </div>
 
 <div align="center">
@@ -18,9 +26,17 @@
 
 ---
 
-## AsterNova — 实时联机游戏矩阵
+## 商业产品 · 在线运营
 
-服务器权威架构 · 60Hz 帧同步 · Go 后端 · Web / Unity / Godot 三端客户端。
+| 产品 | 一句话 | 线上 |
+|---|---|---|
+| [`ResuAIX`](https://github.com/TimeCraker/ResuAIX) 🔒 | AI 简历智能生成 + 面试模拟器 · Next.js 16 / Fastify 微服务 / Prisma + PG | [resume.asterforge.top](https://resume.asterforge.top) |
+| [`lekao`](https://github.com/TimeCraker/lekao) 🔒 | K12 机构 AI 助教工作台 · 错题集 / 课堂小结 / 课堂反馈 · Next.js / Prisma | [lekao.asterforge.top](https://lekao.asterforge.top) |
+| [`xiaofanzhuo`](https://github.com/TimeCraker/xiaofanzhuo) 🔒 | 社区小饭桌点餐 · 顾客扫码点餐 + 商家管理端 · Next.js / Prisma / SQLite | [xiaofanzhuo.asterforge.top](https://xiaofanzhuo.asterforge.top) |
+
+## AsterNova — 3D 动作游戏矩阵
+
+3D 动作游戏 monorepo · Godot 4.7 主客户端 + Next.js 官网 · Go 后端一期封存。
 
 <div align="center">
 <a href="https://github.com/TimeCraker/games">
@@ -28,24 +44,16 @@
 </a>
 </div>
 
-[`games`](https://github.com/TimeCraker/games) monorepo · [`game-backend-demo`](https://github.com/TimeCraker/game-backend-demo) Go · [`asternova-web-client`](https://github.com/TimeCraker/asternova-web-client) Next.js · [`go-dot-game`](https://github.com/TimeCraker/go-dot-game) Godot · [`MyGameDemo_Client-unity-`](https://github.com/TimeCraker/MyGameDemo_Client-unity-) Unity
+[`games`](https://github.com/TimeCraker/games) monorepo · Godot 4.7 · Next.js · Go
 
-## AI 工程
-
-| 项目 | 一句话 |
-|---|---|
-| [`genesis-v2`](https://github.com/TimeCraker/genesis-v2) | 多 LLM 宇宙的数字生命进化实验 |
-| [`ccweb`](https://github.com/TimeCraker/ccweb) | Claude Code 本地控制台 · Agent SDK |
-| [`dsh-claude-import`](https://github.com/TimeCraker/dsh-claude-import) | Claude Code 配置迁移 DeepSeek Harness |
-| [`coding-plan-bench`](https://github.com/TimeCraker/coding-plan-bench) | GLM-5.2 订阅套餐横向基准 |
-
-## 工具
+## 内容工厂与基建
 
 | 项目 | 一句话 |
 |---|---|
-| [`vibe-studio`](https://github.com/TimeCraker/vibe-studio) | 内容创作工作台：PPT 代码生成 → Remotion 视频 |
-| [`auto-content`](https://github.com/TimeCraker/auto-content) | 三平台文案自动流 |
-| [`glm-grab`](https://github.com/TimeCraker/glm-grab) | GLM 套餐补货监控 · Playwright 并行 |
+| [`vibe-studio`](https://github.com/TimeCraker/vibe-studio) | 内容创作工作台：PPT 代码生成 → 逐页动效 → Remotion 成片 → 三平台发布 |
+| [`my-portfolio`](https://github.com/TimeCraker/my-portfolio) 🔒 | 个人主站 [asterforge.top](https://asterforge.top) · Next.js / Prisma / Three.js |
+| [`asterforge-deploy`](https://github.com/TimeCraker/asterforge-deploy) 🔒 | 生产部署权威手册与脚本 · nginx / systemd · 腾讯云单机体系 |
+| [`claude-config`](https://github.com/TimeCraker/claude-config) / [`dsh-config`](https://github.com/TimeCraker/dsh-config) 🔒 | AI 编码工具链配置仓 · 多 Agent 工作流基建 |
 
 ---
 

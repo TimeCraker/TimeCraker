@@ -46,8 +46,8 @@
     </g>
     <text x="2" y="82" class="dom">后端</text>
     <text x="2" y="106" class="sub">Go · Gin · WS</text>
-    <text x="2" y="126" class="sub">FastAPI · Node</text>
-    <text x="2" y="146" class="sub">Prisma · MySQL · Redis</text>
+    <text x="2" y="126" class="sub">Fastify · Node</text>
+    <text x="2" y="146" class="sub">Prisma · PostgreSQL · Redis</text>
   </g>
   <line x1="546" y1="44" x2="546" y2="196" class="line"/>
 
@@ -127,27 +127,31 @@
   <line x1="56" y1="216" x2="1384" y2="216" class="line"/>
   <text x="56"  y="252" class="tag">DELIVERED · 未开源交付</text>
 
-  <!-- 交付五项 -->
+  <!-- 交付六项 -->
   <g transform="translate(56,272)" class="dim">
     <circle cx="6"  cy="10" r="3.5" class="dot-on"/>
     <text x="20" y="15" class="sub">AI 简历产品</text>
     <text x="20" y="34" class="dim">在线运营</text>
 
-    <circle cx="278" cy="10" r="3.5" class="dot-on"/>
-    <text x="292" y="15" class="sub">K12 AI 助教平台</text>
-    <text x="292" y="34" class="dim">在线运营</text>
+    <circle cx="227" cy="10" r="3.5" class="dot-on"/>
+    <text x="241" y="15" class="sub">K12 AI 助教平台</text>
+    <text x="241" y="34" class="dim">在线运营</text>
 
-    <circle cx="550" cy="10" r="3.5" class="node"/>
-    <text x="564" y="15" class="sub">工业品发品 Agent</text>
-    <text x="564" y="34" class="dim">AI RPA · Chrome 扩展</text>
+    <circle cx="448" cy="10" r="3.5" class="dot-on"/>
+    <text x="462" y="15" class="sub">社区小饭桌点餐</text>
+    <text x="462" y="34" class="dim">在线运营</text>
 
-    <circle cx="846" cy="10" r="3.5" class="node"/>
-    <text x="860" y="15" class="sub">BLE 硬件 PWA 驱动</text>
-    <text x="860" y="34" class="dim">定制合同交付</text>
+    <circle cx="669" cy="10" r="3.5" class="node"/>
+    <text x="683" y="15" class="sub">工业品发品 Agent</text>
+    <text x="683" y="34" class="dim">AI RPA · Chrome 扩展</text>
 
-    <circle cx="1118" cy="10" r="3.5" class="node"/>
-    <text x="1132" y="15" class="sub">离线自托管 TTS</text>
-    <text x="1132" y="34" class="dim">ONNX CPU 推理</text>
+    <circle cx="890" cy="10" r="3.5" class="node"/>
+    <text x="904" y="15" class="sub">BLE 硬件 PWA 驱动</text>
+    <text x="904" y="34" class="dim">定制合同交付</text>
+
+    <circle cx="1111" cy="10" r="3.5" class="node"/>
+    <text x="1125" y="15" class="sub">离线自托管 TTS</text>
+    <text x="1125" y="34" class="dim">ONNX CPU 推理</text>
   </g>
 
   <!-- 底部细节线 -->
