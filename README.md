@@ -26,13 +26,24 @@
 
 ---
 
+## 🤖 AI Agents & 开发者基础设施 · 开源矩阵
+
+| 项目 | 核心定位与技术栈 | 协议 |
+|---|---|:---:|
+| [`agent-hive`](https://github.com/TimeCraker/agent-hive) | Claude Code 批量无头并行控制台 · 双模型路由 · 波次治理 · CWD 避让锁 · 实时流终端 | **MIT** |
+| [`ccweb`](https://github.com/TimeCraker/ccweb) | Claude Code 本地图形化 Web 工作台 · 官方 Agent SDK 驱动 · 会话树 · 实时指标与审批 | **MIT** |
+| [`coding-plan-bench`](https://github.com/TimeCraker/coding-plan-bench) | 开源大模型 Coding 订阅套餐测速台 · TTFT / TPS / Total 延时中立榜单 · Cloudflare + Tauri | **MIT** |
+| [`video-script-workflow`](https://github.com/TimeCraker/video-script-workflow) | AI 动漫短剧剧本与分镜创作工坊 · 跨故事角色档案库 · 逐秒分镜剧本 · 本地沉浸阅读器 | **MIT** |
+| [`claude-remote-deploy`](https://github.com/TimeCraker/claude-remote-deploy) | Claude Code 云服务器远程部署 + 飞书 WebSocket Bot + Vision Proxy 视觉转译 | **MIT** |
+| [`claude-web-terminal`](https://github.com/TimeCraker/claude-web-terminal) | 浏览器端 Claude 交互终端 · tsx + ws + node-pty + React + xterm | **MIT** |
+
 ## 商业产品 · 在线运营
 
-| 产品 | 一句话 | 线上 |
-|---|---|---|
-| [`ResuAIX`](https://github.com/TimeCraker/ResuAIX) 🔒 | AI 简历智能生成 + 面试模拟器 · Next.js 16 / Fastify 微服务 / Prisma + PG | [resume.asterforge.top](https://resume.asterforge.top) |
-| [`lekao`](https://github.com/TimeCraker/lekao) 🔒 | K12 机构 AI 助教工作台 · 错题集 / 课堂小结 / 课堂反馈 · Next.js / Prisma | [lekao.asterforge.top](https://lekao.asterforge.top) |
-| [`xiaofanzhuo`](https://github.com/TimeCraker/xiaofanzhuo) 🔒 | 社区小饭桌点餐 · 顾客扫码点餐 + 商家管理端 · Next.js / Prisma / SQLite | [xiaofanzhuo.asterforge.top](https://xiaofanzhuo.asterforge.top) |
+| 产品 | 一句话 | 线上 | 源码 |
+|---|---|---|:---:|
+| [`Lekao`](https://github.com/TimeCraker/Lekao) | K12 机构 AI 助教工作台 · 错题集生成 / 课堂小结 / 课后反馈 · Next.js / Prisma | [lekao.asterforge.top](https://lekao.asterforge.top) | **开源 (MIT)** |
+| [`ResuAIX`](https://github.com/TimeCraker/ResuAIX) 🔒 | AI 简历智能生成 + 面试模拟器 · Next.js 16 / Fastify 微服务 / Prisma + PG | [resume.asterforge.top](https://resume.asterforge.top) | 私有商业 |
+| [`xiaofanzhuo`](https://github.com/TimeCraker/xiaofanzhuo) 🔒 | 社区小饭桌点餐 · 顾客扫码点餐 + 商家管理端 · Next.js / Prisma / SQLite | [xiaofanzhuo.asterforge.top](https://xiaofanzhuo.asterforge.top) | 私有运营 |
 
 ## AsterNova — 3D 动作游戏矩阵
 
