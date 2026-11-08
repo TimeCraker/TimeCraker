@@ -1,73 +1,47 @@
-<div align="center">
+<img src="assets/makers-atlas.webp" width="100%" alt="TimeCraker · Independent Builder。米白纸面上陈列着机械键盘的分解结构、电路板和建筑模型。" />
 
-<img src="assets/og-image.png" width="720" alt="TimeCraker" />
+# 独立架构师 · 全栈 × AI × 硬件
 
-# TimeCraker
+我是张桓睿（TimeCraker）。我做 AI 产品、开发工具和游戏，也动手做硬件。从架构、实现到部署与运维，我把想法做成可以实际使用的系统。
 
-**独立架构师 · 全栈 × AI × 硬件**
+[个人主站 ↗](https://asterforge.top) · [完整作品 ↗](https://asterforge.top/explore#projects) · [邮件联系](mailto:timecraker@foxmail.com)
 
-商业项目独立交付：架构 · 开发 · 部署 · 运维，一人闭环。
+## 01 / 精选作品
 
-[asterforge.top](https://asterforge.top) · [ResumeAIX](https://resume.asterforge.top) · [timecraker@foxmail.com](mailto:timecraker@foxmail.com)
+**[ccweb](https://github.com/TimeCraker/ccweb)** · 开发者工具<br>
+把 Claude Code 的会话、实时工具调用和操作审批放进浏览器。基于 Claude Agent SDK，支持在本机运行。
 
-<img src="https://img.shields.io/badge/Next.js_16-CC785C?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js 16" />
-<img src="https://img.shields.io/badge/React_19-CC785C?style=flat-square&logo=react&logoColor=white" alt="React 19" />
-<img src="https://img.shields.io/badge/TypeScript-CC785C?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
-<img src="https://img.shields.io/badge/Go-CC785C?style=flat-square&logo=go&logoColor=white" alt="Go" />
-<img src="https://img.shields.io/badge/Godot-CC785C?style=flat-square&logo=godotengine&logoColor=white" alt="Godot" />
-<img src="https://img.shields.io/badge/Prisma-CC785C?style=flat-square&logo=prisma&logoColor=white" alt="Prisma" />
-<img src="https://img.shields.io/badge/AI_Agents-CC785C?style=flat-square" alt="AI Agents" />
+**[ResuAIX ↗](https://resume.asterforge.top)** · AI 产品<br>
+面向求职者的 AI 简历工具，支持编辑简历、润色经历和练习面试。
 
-</div>
+**[AsterNova](https://github.com/TimeCraker/games)** · 游戏开发<br>
+一款实时联机 3D 动作游戏项目，包含 Godot 客户端和联机服务端。
 
-<div align="center">
-<img src="assets/capabilities.svg" width="880" alt="技术面与已交付" />
-</div>
+**[蓝牙语音机械键盘 ↗](https://asterforge.top/explore#hardware)** · 硬件实践<br>
+把机械键盘、PCB 与蓝牙语音模块整合进同一个自制硬件项目。
 
----
+## 02 / 更多项目
 
-## 🤖 AI Agents & 开发者基础设施 · 开源矩阵
+- **[Lekao](https://github.com/TimeCraker/Lekao)**：面向教培机构的 AI 助教工作台，整理错题、课堂小结和课后反馈。
+- **[vibe-studio](https://github.com/TimeCraker/vibe-studio)**：把演示文稿、逐页动效和 Remotion 视频串成一条内容制作流程。
+- **[agent-hive](https://github.com/TimeCraker/agent-hive)**：批量调度 Claude Code 任务，查看并行执行进度。
+- **[coding-plan-bench](https://github.com/TimeCraker/coding-plan-bench)**：比较 Coding 订阅方案的首字延迟、输出速率与总耗时。
+- **[小饭桌 ↗](https://xiaofanzhuo.asterforge.top)**：社区扫码点餐与商家管理系统。
 
-| 项目 | 核心定位与技术栈 | 协议 |
-|---|---|:---:|
-| [`agent-hive`](https://github.com/TimeCraker/agent-hive) | Claude Code 批量无头并行控制台 · 双模型路由 · 波次治理 · CWD 避让锁 · 实时流终端 | **MIT** |
-| [`ccweb`](https://github.com/TimeCraker/ccweb) | Claude Code 本地图形化 Web 工作台 · 官方 Agent SDK 驱动 · 会话树 · 实时指标与审批 | **MIT** |
-| [`coding-plan-bench`](https://github.com/TimeCraker/coding-plan-bench) | 开源大模型 Coding 订阅套餐测速台 · TTFT / TPS / Total 延时中立榜单 · Cloudflare + Tauri | **MIT** |
-| [`video-script-workflow`](https://github.com/TimeCraker/video-script-workflow) | AI 动漫短剧剧本与分镜创作工坊 · 跨故事角色档案库 · 逐秒分镜剧本 · 本地沉浸阅读器 | **MIT** |
-| [`claude-remote-deploy`](https://github.com/TimeCraker/claude-remote-deploy) | Claude Code 云服务器远程部署 + 飞书 WebSocket Bot + Vision Proxy 视觉转译 | **MIT** |
-| [`claude-web-terminal`](https://github.com/TimeCraker/claude-web-terminal) | 浏览器端 Claude 交互终端 · tsx + ws + node-pty + React + xterm | **MIT** |
+<details>
+<summary>其他开源实验与工具</summary>
 
-## 商业产品 · 在线运营
+- [video-script-workflow](https://github.com/TimeCraker/video-script-workflow) · 短剧剧本、角色档案与分镜工作流。
+- [claude-remote-deploy](https://github.com/TimeCraker/claude-remote-deploy) · Claude Code 远程部署与飞书 Bot 接入。
+- [claude-web-terminal](https://github.com/TimeCraker/claude-web-terminal) · 浏览器里的 Claude 交互终端。
 
-| 产品 | 一句话 | 线上 | 源码 |
-|---|---|---|:---:|
-| [`Lekao`](https://github.com/TimeCraker/Lekao) | K12 机构 AI 助教工作台 · 错题集生成 / 课堂小结 / 课后反馈 · Next.js / Prisma | [lekao.asterforge.top](https://lekao.asterforge.top) | **开源 (MIT)** |
-| [`ResuAIX`](https://github.com/TimeCraker/ResuAIX) 🔒 | AI 简历智能生成 + 面试模拟器 · Next.js 16 / Fastify 微服务 / Prisma + PG | [resume.asterforge.top](https://resume.asterforge.top) | 私有商业 |
-| [`xiaofanzhuo`](https://github.com/TimeCraker/xiaofanzhuo) 🔒 | 社区小饭桌点餐 · 顾客扫码点餐 + 商家管理端 · Next.js / Prisma / SQLite | [xiaofanzhuo.asterforge.top](https://xiaofanzhuo.asterforge.top) | 私有运营 |
+</details>
 
-## AsterNova — 3D 动作游戏矩阵
+## 03 / 我的工具箱
 
-3D 动作游戏 monorepo · Godot 4.7 主客户端 + Next.js 官网 · Go 后端一期封存。
+**软件** · TypeScript、React、Next.js、Go、PostgreSQL<br>
+**AI** · Agent SDK、工具调用、审批交互、本地推理<br>
+**游戏与硬件** · Godot、蓝牙、语音、PCB、机械键盘
 
-<div align="center">
-<a href="https://github.com/TimeCraker/games">
-<img src="https://raw.githubusercontent.com/TimeCraker/asternova-assets/main/hero-arena.png" width="640" />
-</a>
-</div>
-
-[`games`](https://github.com/TimeCraker/games) monorepo · Godot 4.7 · Next.js · Go
-
-## 内容工厂与基建
-
-| 项目 | 一句话 |
-|---|---|
-| [`vibe-studio`](https://github.com/TimeCraker/vibe-studio) | 内容创作工作台：PPT 代码生成 → 逐页动效 → Remotion 成片 → 三平台发布 |
-| [`my-portfolio`](https://github.com/TimeCraker/my-portfolio) 🔒 | 个人主站 [asterforge.top](https://asterforge.top) · Next.js / Prisma / Three.js |
-| [`asterforge-deploy`](https://github.com/TimeCraker/asterforge-deploy) 🔒 | 生产部署权威手册与脚本 · nginx / systemd · 腾讯云单机体系 |
-| [`claude-config`](https://github.com/TimeCraker/claude-config) / [`dsh-config`](https://github.com/TimeCraker/dsh-config) 🔒 | AI 编码工具链配置仓 · 多 Agent 工作流基建 |
-
----
-
-<div align="center">
-<sub>🇨🇳 鄂ICP备2026015662号-1</sub>
-</div>
+> 循此苦旅，以达天际。<br>
+> *Per aspera ad astra.*
